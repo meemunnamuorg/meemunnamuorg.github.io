@@ -17,6 +17,8 @@
 
     <!-- Favicon -->
     <link href="assets/img/favicon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -194,34 +196,38 @@
        ===================================== -->
     <section class="rev_slider_wrapper fullwidthbanner-container over" dir="ltr">
         <!-- SLider start-->
-        <div>
-            <link rel="stylesheet" type="text/css" href="assets/plugins/slider/css/mws_slider.css"/>
-            <script type="text/javascript" src="assets/plugins/slider/js/jquery.min.js"></script>
-            <div id="mwsslider-contentbox">
-                <div class="ms_images">
-                    <ul>
-                        <li><img src="assets/plugins/slider/img/img-1.jpg" alt="Test1" title="" id="mws1_0"/>Education
-                            is the most powerful weapon which you can use to change the world - Nelson Mandela
-                        </li>
-                        <li><img src="assets/plugins/slider/img/img-2.jpg" alt="Test2" title="" id="mws1_1"/>An
-                            investment in knowledge pays the best interest - Benjamin Franklin
-                        </li>
-                        <li><img src="assets/plugins/slider/img/img-3.jpg" alt="Test3" title="" id="mws1_2"/>The roots
-                            of education are bitter, but the fruit is sweet – Aristotle
-                        </li>
-                        <li><img src="assets/plugins/slider/img/img-4.jpg" alt="Test4" title="" id="mws1_3"/>Live as if
-                            you were to die tomorrow, learn as if you were to live forever ― Mahatma Gandhi
-                        </li>
-                    </ul>
+        <div id="image-slider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="assets/plugins/slider/img/img-1.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/plugins/slider/img/img-2.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/plugins/slider/img/img-3.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/plugins/slider/img/img-4.jpg">
+                    </li>
+                </ul>
+            </div>
+            <div class="splide__progress">
+                <div class="splide__progress__bar">
                 </div>
             </div>
-            <div class="ms_shadow"></div>
         </div>
-        <script type="text/javascript" src="assets/plugins/slider/js/mws_slider_backend.js"></script>
-        <script type="text/javascript" src="assets/plugins/slider/js/mws_script.js"></script>
-        <br/>
-</div>
-</section>
+        <script>
+            new Splide('#image-slider', {
+                type: 'slide',
+                rewind: true,
+                autoplay: true,
+                cover: true,
+                heightRatio: 0.38,
+            }).mount();
+        </script>
+    </section>
 <!-- ====================================
    ———	BOX SECTION
    ===================================== -->
