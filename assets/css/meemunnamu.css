@@ -9695,6 +9695,9 @@ a.bg-stone:hover, a.bg-stone:focus, button.bg-stone:hover, button.bg-stone:focus
 .text-white {
   color: #fff !important
 }
+.text-grey {
+  color: #666 !important
+}
 .text-primary {
   color: #ea7066 !important
 }
@@ -10109,7 +10112,6 @@ a:hover {
   text-align: center;
   font-weight: 600;
   font-size: 2.5rem;
-  font-family: dosis, sans-serif
 }
 .color-bars {
   width: 100%
@@ -11655,7 +11657,6 @@ a:hover {
   top: 11px
 }
 .section-title h2 {
-  font-family: dosis, sans-serif;
   font-size: 2.25rem;
   text-transform: capitalize;
   font-weight: 700;
@@ -12281,7 +12282,7 @@ a:hover {
   height: 145px;
   line-height: 145px;
   border-radius: 100%;
-  border: 4px solid #fff;
+  border: 5px solid #666;
   display: block;
   margin: 0 auto 22px;
   font-size: 2rem
@@ -13945,4 +13946,47 @@ html[dir=rtl] .owl-nav i {
 }
 html[dir=rtl] .team-slider .card .card-img-wrapper .card-img-overlay .list-unstyled {
   padding-right: 0 !important
+}
+
+/* For Donate float button */
+.tho-option {
+  direction: ltr
+}
+
+.tho-option-switcher-btn {
+  top: 500px;
+  position: fixed;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-left: -80px;
+  min-width: 60px
+}
+
+.tho-option-switcher {
+  right: 0;
+  top: 0;
+  color: #fff;
+  width: 315px;
+  display: block;
+  z-index: 555555;
+  position: fixed;
+  background: #202020;
+  border-radius: 0;
+  height: 100%;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease
+}
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 40px;
+  background-color: #ea7066;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #fff;
 }

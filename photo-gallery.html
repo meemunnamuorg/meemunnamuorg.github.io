@@ -71,8 +71,8 @@
                 <div class="col-lg-5">
                     <ul class="list-inline d-flex mb-0 justify-content-xl-end justify-content-md-center align-items-center mr-xl-2">
                         <li class="text-white mr-3 mr-lg-2 mr-xl-5">
-                            <button class="btn btn-light mb-2" href="javascript:void(0)" data-toggle="modal"
-                                    data-target="#VolunteerForm" style="margin-top: 0.5rem;">Volunteer
+                            <button class="btn btn-light mb-2" href="https://forms.gle/RuTgbWMPD3YCuNHB9" style="margin-top: 0.5rem;">
+                                <a class="text-dark" href="https://forms.gle/RuTgbWMPD3YCuNHB9" target="_blank">Volunteer</a>
                             </button>
                             <span class="text-white opacity-80">  </span>
                             <button class="btn btn-light mb-2" style="margin-top: 0.5rem; margin-left: 0.5rem;">
@@ -105,7 +105,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item " href="about-us.html"> Our Story </a></li>
                             <li><a class="dropdown-item " href="vision-mission.html"> Vision & Mission
-                            </li>
+                            </a></li>
                             <li><a class="dropdown-item " href="aims-objectives.html"> Aims & Objectives </a></li>
                             <li><a class="dropdown-item " href="team.html"> Our Team </a></li>
                             <li><a class="dropdown-item " href="testimonials.html"> Testimonials </a></li>
@@ -131,7 +131,7 @@
                                     <li>Talent Hunt & Encouragement</li>
                                     <li><a class="" href="competitions.html">Competitions</a></li>
                                     <li><a class="" href="cheques.html">Gift Cheques</a></li>
-                                    <li><a class="" href="schoolMagazines.html">School Magazines</a></li>
+                                    <li><a class="" href="cheques.html">School Magazines</a></li>
                                 </ul>
                             </div>
                             <div class="col-12 col-md-3">
@@ -159,14 +159,15 @@
                     </li>
                     <li class="nav-item dropdown bg-purple"><a class="nav-link dropdown-toggle " href="events.html"> <i
                             class="fa fa-calendar nav-icon" aria-hidden="true"></i> <span>Events</span> </a>
-
                     </li>
                     <li class="nav-item dropdown bg-info"><a class="nav-link dropdown-toggle active"
                                                              href="photo-gallery.html"> <i class="fa fa-image nav-icon"
                                                                                            aria-hidden="true"></i>
                         <span>Gallery</span> </a></li>
-                    <li class="nav-item dropdown bg-pink"><a class="nav-link dropdown-toggle " href="contact-us.html">
-                        <i class="fa fa-phone nav-icon" aria-hidden="true"></i> <span>Contact Us</span> </a></li>
+                    <li class="nav-item dropdown bg-pink"><a class="nav-link dropdown-toggle"
+                                                             href="contact-us.html"> <i class="fa fa-phone nav-icon"
+                                                                                        aria-hidden="true"></i> <span>Contact Us</span>
+                    </a></li>
                 </ul>
             </div>
         </div>
@@ -177,7 +178,7 @@
     <!-- ====================================
     ———	BREADCRUMB
     ===================================== -->
-    <section class="breadcrumb-bg" style="background-image: url(assets/img/background/page-title-bg-img.jpg); ">
+    <section class="" style="background-image: url(assets/img/background/page-title-bg-img.png); ">
         <div class="container">
             <div class="breadcrumb-holder">
                 <div>
@@ -200,9 +201,18 @@
     ===================================== -->
     <section class="py-8 py-md-10">
         <div class="container">
+            <div class="d-flex justify-content-center">
+                <div id="filters" class="button-group">
+                    <button class="button" data-filter="*">View All</button>
+                    <button class="button" data-filter=".health">Health</button>
+                    <button class="button" data-filter=".peace">Peace</button>
+                    <button class="button" data-filter=".wisdom">Wisdom</button>
+                    <button class="button" data-filter=".environment">Environment</button>
+                </div>
+            </div>
             <div id="gallery-grid">
                 <div class="row grid">
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item nature">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item wisdom">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img1.jpg"
@@ -218,7 +228,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item charity">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item peace">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img2.jpg"
@@ -234,7 +244,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item children nature">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item wisdom">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img3.jpg"
@@ -250,7 +260,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item children charity">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item wisdom">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img4.jpg"
@@ -266,7 +276,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item nature">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item peace">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img5.jpg"
@@ -282,7 +292,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item children charity">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item wisdom">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img6.jpg"
@@ -298,7 +308,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item children charity">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item wisdom">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img7.jpg"
@@ -314,7 +324,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xs-12 element-item nature">
+                    <div class="col-md-4 col-lg-3 col-xs-12 element-item wisdom">
                         <div class="media media-hoverable justify-content-center">
                             <div class="position-relative w-100">
                                 <img class="media-img w-100 lazyestload" data-src="assets/img/gallery/gallery-img8.jpg"
@@ -551,8 +561,10 @@
 <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/SmoothScroll.js"></script>
 <script src="assets/plugins/lazyestload/lazyestload.js"></script>
-<script src="assets/js/mws.js"></script>
+<script src="assets/js/isotope.min.js"></script>
+<script src="assets/js/select2.min.js"></script>
+<script src="assets/js/jquery.syotimer.min.js"></script>
 <script src="assets/js/wow.js"></script>
-<script src="assets/js/rocket-loader1.min.js"></script>
-</body>
+<script src="assets/js/velocity.min.js"></script>
+<script src="assets/js/mws.js"></script>
 </html>
