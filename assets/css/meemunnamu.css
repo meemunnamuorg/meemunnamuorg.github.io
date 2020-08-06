@@ -10063,8 +10063,8 @@ a:hover {
   background-position: bottom center;
   background-repeat: no-repeat
 }
-.breadcrumb-bg .breadcrumb-holder {
-  height: 250px;
+.breadcrumb-holder {
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
