@@ -167,7 +167,7 @@
 		}, 500), !1
 	}), e(window).scroll(function () {
 		e(this).scrollTop() > 400 ? e(".element-right-sidebar").addClass("sidebar-fixed") : e(".element-right-sidebar").removeClass("sidebar-fixed"), e(window).scrollTop() + e(window).height() > e(document).height() - 590 ? e(".element-right-sidebar").addClass("right-sidebar-absolute").removeClass("sidebar-fixed") : e(".element-right-sidebar").removeClass("right-sidebar-absolute")
-	}), e("#map").length && google.maps.event.addDomListener(window, "load", a);
+	}), e("#map").length ;
 	var r = e(".animated"),
 		l = e(window);
 	l.on("scroll resize", t), l.trigger("scroll"), e(".incr-btn").on("click", function (a) {
@@ -224,3 +224,4 @@ ga('send', 'pageview');
 	s = i.getElementsByTagName(g)[0];
 	s.parentNode.insertBefore(t, s);
 })(window, document, '_gscq', 'script', '');
+document.getElementById('copyright-text').textContent = '© ' + new Date().getFullYear() +  ' Copyright Meemunnamu Welfare Society';
