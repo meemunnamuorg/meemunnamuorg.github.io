@@ -10280,7 +10280,7 @@ a:hover {
   border-right: none
 }
 .navbar-nav .dropdown > a {
-  font-size: .875rem
+  font-size: 1rem
 }
 .navbar-nav .dropdown .nav-link span {
   display: inline-block;
@@ -11264,7 +11264,8 @@ a:hover {
   top: 0;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background-color: #fff
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #eeeeee;
 }
 .navbar-sticky.navbar-light-dark {
   padding-top: 0;
