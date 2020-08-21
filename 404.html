@@ -1,5 +1,88 @@
-<html>
-  <body>
-    File not found (404 error)
-  </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Site Tittle -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Meemunnamu | Health Camp</title>
+    <!-- Plugins css Style -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Open+Sans:300,400,600,700"
+        rel="stylesheet">
+    <!-- Custom css -->
+    <link href="assets/css/meemunnamu.css" id="option_style" rel="stylesheet">
+    <!-- Favicon -->
+    <link href="assets/img/favicon.png" rel="shortcut icon">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="up-scroll" data-spy="scroll" data-target=".element-right-sidebar" id="body">
+    <!-- ====================================
+         ——— HEADER
+         ===================================== -->
+    <div id="header"></div>
+
+    <div class="main-wrapper home">
+      
+        <!-- ====================================
+             ———	404
+         ===================================== -->
+
+         <section class="py-7">
+          <div class="container text-center">
+            <div class="row">
+              <div style="margin:auto">
+                <div class="">
+                  <h1 class="mb-4 font-weight-bold display-4 font-size-48">Oops! Lost in space</h1>
+                  <p class="mb-7 font-size-28 text-dark">This page could not found!</p>
+        
+                 </div>
+        
+                    <div>
+                      <a href="index.html" class="btn-lg btn-danger text-uppercase">Return to home page</a>
+                    </div>
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+    <!-- element wrapper ends -->
+    <!-- ====================================
+         ———	FOOTER
+===================================== -->
+    <div id="footer"></div>
+    <!--scrolling-->
+    <div class="scrolling">
+        <a href="#pageTop" class="back-to-top" id="back-to-top" style="opacity: 1;"> <i class="fa fa-arrow-up"
+                aria-hidden="true"></i> </a>
+    </div>
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#header').load('header.html');
+        $('#footer').load('footer.html', function () {
+            $('#navHealthCamp').addClass('active');
+        });
+    </script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/SmoothScroll.js"></script>
+    <script src="assets/plugins/lazyestload/lazyestload.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/jquery.syotimer.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/velocity.min.js"></script>
+    <script src="assets/js/mws.js"></script>
+</body>
+
+</html>
