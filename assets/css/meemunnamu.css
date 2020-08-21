@@ -10206,7 +10206,7 @@ a:hover {
   }
 }
 .navbar .navbar-brand img {
-  max-width: 130px
+  max-width: 220px
 }
 @media(min-width:768px) {
   .navbar .navbar-brand img {
@@ -10220,9 +10220,8 @@ a:hover {
 }
 .navbar .navbar-toggler {
   margin-right: .94rem;
-  background-color: #ea7066;
-  border-radius: .25rem;
-  box-shadow: 0 .25rem 0 rgba(0, 0, 0, .1);
+  background-color: #b5d56a;
+  border-radius: .5rem;
   color: #fff
 }
 .navbar .navbar-toggler:focus {
