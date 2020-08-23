@@ -28,7 +28,6 @@
          ——— HEADER
          ===================================== -->
     <div id="header"></div>
-
     <div class="main-wrapper home">
         <!-- ====================================
          ———	BREADCRUMB
@@ -106,6 +105,12 @@
     </div>
     <!-- Javascript -->
     <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#header').load('header.html');
+        $('#footer').load('footer.html', function () {
+            $('#navOurStory').addClass('active');
+        });
+    </script>
     <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/SmoothScroll.js"></script>
     <script src="assets/plugins/lazyestload/lazyestload.js"></script>
@@ -115,12 +120,6 @@
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/velocity.min.js"></script>
     <script src="assets/js/mws.js"></script>
-    <script type="text/javascript">
-        $('#header').load('header.html');
-        $('#footer').load('footer.html', function () {
-            $('#navOurStory').addClass('active');
-        });
-    </script>
 </body>
 
 </html>
