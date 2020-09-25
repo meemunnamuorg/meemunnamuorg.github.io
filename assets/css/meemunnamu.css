@@ -5796,7 +5796,7 @@ a.bg-pink:hover, a.bg-pink:focus, button.bg-pink:hover, button.bg-pink:focus {
   background-color: #e34b92 !important
 }
 .bg-stone {
-  background-color: #2f3c43 !important
+  background-color: #24292e !important
 }
 a.bg-stone:hover, a.bg-stone:focus, button.bg-stone:hover, button.bg-stone:focus {
   background-color: #1a2125 !important
@@ -10220,7 +10220,7 @@ a:hover {
 }
 .navbar .navbar-toggler {
   margin-right: .94rem;
-  background-color: #b5d56a;
+  background-color: #ea7066;
   border-radius: .5rem;
   color: #fff
 }
@@ -13989,4 +13989,7 @@ html[dir=rtl] .team-slider .card .card-img-wrapper .card-img-overlay .list-unsty
   color: white;
   font-weight: 600;
   border: 2px solid #fff;
+}
+.font-weight-600 {
+  font-weight: 600;
 }
