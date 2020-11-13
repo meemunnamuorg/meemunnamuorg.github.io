@@ -10202,7 +10202,7 @@ a:hover {
 }
 @media(min-width:768px) {
   .navbar .navbar-brand {
-    padding: 20px 0
+    padding: 10px 0
   }
 }
 .navbar .navbar-brand img {
@@ -11261,8 +11261,9 @@ a:hover {
   width: 100%;
   z-index: 1000;
   top: 0;
+  left: 0;
   -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   background-color: #f3f3f3;
   border-bottom: 1px solid #eeeeee;
 }
