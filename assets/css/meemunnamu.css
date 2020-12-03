@@ -11277,6 +11277,9 @@ a:hover {
   padding-top: 1rem;
   padding-bottom: 1rem
 }
+.navbar-sticky img {
+  width: 200px !important;
+}
 .navbar-expand-lg.navbar-sticky .navbar-nav .nav-link {
   padding-top: 1.37rem;
   padding-bottom: 1.37rem
