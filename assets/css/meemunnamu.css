@@ -12293,7 +12293,7 @@ a:hover {
 }
 @media(min-width:768px) {
   #counter .counter-value {
-    font-size: 3.25rem
+    font-size: 3rem
   }
 }
 #counter span {
