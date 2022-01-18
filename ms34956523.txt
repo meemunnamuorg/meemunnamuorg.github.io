@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "meemunnamu.org",
+  "Id": "c5e7fede-87cd-46b1-a5ad-2c9a113c02ca"
+}
